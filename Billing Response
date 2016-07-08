@@ -1,0 +1,59 @@
+{
+  "id": "P-94458432VR012762KRWBZEUA",
+  "state": "CREATED",
+  "name": "T-Shirt of the Month Club Plan",
+  "description": "Template creation.",
+  "type": "FIXED",
+  "payment_definitions": [
+    {
+      "id": "PD-50606817NF8063316RWBZEUA",
+      "name": "Regular Payments",
+      "type": "REGULAR",
+      "frequency": "Month",
+      "amount": {
+        "currency": "USD",
+        "value": "100"
+      },
+      "charge_models": [
+        {
+          "id": "CHM-55M5618301871492MRWBZEUA",
+          "type": "SHIPPING",
+          "amount": {
+            "currency": "USD",
+            "value": "10"
+          }
+        },
+        {
+          "id": "CHM-92S85978TN737850VRWBZEUA",
+          "type": "TAX",
+          "amount": {
+            "currency": "USD",
+            "value": "12"
+          }
+        }
+      ],
+      "cycles": "12",
+      "frequency_interval": "2"
+    }
+  ],
+  "merchant_preferences": {
+    "setup_fee": {
+      "currency": "USD",
+      "value": "1"
+    },
+    "max_fail_attempts": "0",
+    "return_url": "http://www.return.com",
+    "cancel_url": "http://www.cancel.com",
+    "auto_bill_amount": "YES",
+    "initial_fail_amount_action": "CONTINUE"
+  },
+  "create_time": "2014-07-31T17:41:55.920Z",
+  "update_time": "2014-07-31T17:41:55.920Z",
+  "links": [
+    {
+      "href": "https://api.sandbox.paypal.com/v1/payments/billing-plans/P-94458432VR012762KRWBZEUA",
+      "rel": "self",
+      "method": "GET"
+    }
+  ]
+}

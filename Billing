@@ -96,4 +96,4 @@ links array (contains the link object)
 HATEOAS links related to this call.
 Read only.
 
-Sample Response
+

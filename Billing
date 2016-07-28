@@ -2,33 +2,33 @@ curl -v POST https://api.sandbox.paypal.com/v1/payments/billing-plans \
 -H 'Content-Type:application/json' \
 -H 'Authorization: Bearer Access-Token' \
 -d '{
-  "name": "T-Shirt of the Month Club Plan",
-  "description": "Template creation.",
-  "type": "fixed",
+  "name": "",
+  "description": "",
+  "type": "",
   "payment_definitions": [
     {
-      "name": "Regular Payments",
-      "type": "REGULAR",
-      "frequency": "MONTH",
-      "frequency_interval": "2",
+      "name": "",
+      "type": "",
+      "frequency": "",
+      "frequency_interval": "",
       "amount": {
-        "value": "120",
-        "currency": "USD"
+        "value": "",
+        "currency": ""
       },
-      "cycles": "14",
+      "cycles": "",
       "charge_models": [
         {
-          "type": "SHIPPING",
+          "type": "",
           "amount": {
-            "value": "10",
-            "currency": "USD"
+            "value": "",
+            "currency": ""
           }
         },
         {
-          "type": "TAX",
+          "type": "",
           "amount": {
-            "value": "16",
-            "currency": "USD"
+            "value": "",
+            "currency": ""
           }
         }
       ]
@@ -36,14 +36,14 @@ curl -v POST https://api.sandbox.paypal.com/v1/payments/billing-plans \
   ],
   "merchant_preferences": {
     "setup_fee": {
-      "value": "2",
-      "currency": "USD"
+      "value": "",
+      "currency": ""
     },
     "return_url": "http://www.return.com",
     "cancel_url": "http://www.cancel.com",
-    "auto_bill_amount": "YES",
-    "initial_fail_amount_action": "CONTINUE",
-    "max_fail_attempts": "0"
+    "auto_bill_amount": "",
+    "initial_fail_amount_action": "",
+    "max_fail_attempts": ""
   }
 }'
 Response

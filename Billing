@@ -12,10 +12,10 @@ curl -v POST https://api.sandbox.paypal.com/v1/payments/billing-plans \
       "frequency": "MONTH",
       "frequency_interval": "2",
       "amount": {
-        "value": "100",
+        "value": "120",
         "currency": "USD"
       },
-      "cycles": "12",
+      "cycles": "14",
       "charge_models": [
         {
           "type": "SHIPPING",
@@ -27,7 +27,7 @@ curl -v POST https://api.sandbox.paypal.com/v1/payments/billing-plans \
         {
           "type": "TAX",
           "amount": {
-            "value": "12",
+            "value": "16",
             "currency": "USD"
           }
         }
@@ -36,7 +36,7 @@ curl -v POST https://api.sandbox.paypal.com/v1/payments/billing-plans \
   ],
   "merchant_preferences": {
     "setup_fee": {
-      "value": "1",
+      "value": "2",
       "currency": "USD"
     },
     "return_url": "http://www.return.com",

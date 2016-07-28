@@ -12,7 +12,7 @@
       "frequency": "Month",
       "amount": {
         "currency": "USD",
-        "value": "100"
+        "value": "120"
       },
       "charge_models": [
         {
@@ -28,18 +28,18 @@
           "type": "TAX",
           "amount": {
             "currency": "USD",
-            "value": "12"
+            "value": "16"
           }
         }
       ],
-      "cycles": "12",
+      "cycles": "14",
       "frequency_interval": "2"
     }
   ],
   "merchant_preferences": {
     "setup_fee": {
       "currency": "USD",
-      "value": "1"
+      "value": "2"
     },
     "max_fail_attempts": "0",
     "return_url": "http://www.return.com",

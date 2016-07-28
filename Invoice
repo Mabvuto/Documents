@@ -3,184 +3,184 @@ curl -v -X PUT https://api.sandbox.paypal.com/v1/invoicing/invoices/INV2-8UZ6-Q3
 -H "Authorization: Bearer Access-Token" \
 -d '{
   "merchant_info": {
-    "email": "ppaas_default@paypal.com",
-    "first_name": "Dennis",
-    "last_name": "Doctor",
-    "business_name": "Medical Professionals, LLC",
-    "phone": {
-      "country_code": "001",
-      "national_number": "5032141716"
+    "email": "phirimarvin@yahoo.com",
+    "first_name": "Mabvuto",
+    "last_name": "Phiri",
+    "business_name": "Global Advertising Services",
+    "phone": {+260971992155
+      "country_code": "10101",
+      "national_number": "944397/67/1"
     },
-    "address": {
-      "line1": "1234 Main St.",
-      "city": "Portland",
+    "address": {B5-33 New Ndeke Kitwe
+      "line1": "",
+      "city": "Zambia",
       "state": "OR",
-      "postal_code": "97217",
-      "country_code": "US"
+      "postal_code": "10101",
+      "country_code": "Zambia"
     }
   },
   "billing_info": [
     {
-      "email": "example@example.com"
+      "email":
     }
   ],
   "items": [
     {
-      "name": "Sutures",
-      "quantity": 100,
+      "name": "",
+      "quantity":,
       "unit_price": {
         "currency": "USD",
-        "value": "5"
+        "value": ""
       }
     }
   ],
-  "note": "Medical Invoice 16 Jul, 2013 PST",
+  "note": "",
   "payment_term": {
-    "term_type": "NET_45"
+    "term_type": ""
   },
   "shipping_info": {
-    "first_name": "Sally",
-    "last_name": "Patient",
+    "first_name": "",
+    "last_name": "",
     "business_name": "Not applicable",
     "phone": {
-      "country_code": "001",
-      "national_number": "5039871234"
+      "country_code": "",
+      "national_number": ""
     },
     "address": {
-      "line1": "1234 Broad St.",
-      "city": "Portland",
+      "line1": "",
+      "city": "",
       "state": "OR",
-      "postal_code": "97216",
-      "country_code": "US"
+      "postal_code": "",
+      "country_code": ""
     }
   }
 }'
 {
-  "id": "INV2-8UZ6-Q3DK-VZXV-SXQB",
-  "number": "0014",
-  "status": "DRAFT",
+  "id": "",
+  "number": "",
+  "status": "",
   "merchant_info": {
-    "email": "ppaas_default@paypal.com",
-    "first_name": "Dennis",
-    "last_name": "Doctor",
-    "business_name": "Medical Professionals, LLC",
+    "email": "",
+    "first_name": "",
+    "last_name": "",
+    "business_name": ",",
     "phone": {
-      "country_code": "1",
-      "national_number": "5032141716"
+      "country_code": "",
+      "national_number": ""
     },
     "address": {
-      "line1": "1234 Main St.",
-      "city": "Portland",
+      "line1": ".",
+      "city": "",
       "state": "OR",
-      "postal_code": "97217",
-      "country_code": "US"
+      "postal_code": "",
+      "country_code": ""
     }
   },
   "billing_info": [
     {
-      "email": "example@example.com"
+      "email": ""
     }
   ],
   "shipping_info": {
-    "first_name": "Sally",
-    "last_name": "Patient",
-    "business_name": "Not applicable",
+    "first_name": "",
+    "last_name": "",
+    "business_name": "",
     "phone": {
-      "country_code": "1",
-      "national_number": "5039871234"
+      "country_code": "",
+      "national_number": ""
     },
     "address": {
-      "line1": "1234 Broad St.",
-      "city": "Portland",
+      "line1": "",
+      "city": "",
       "state": "OR",
-      "postal_code": "97216",
-      "country_code": "US"
+      "postal_code": "",
+      "country_code": ""
     }
   },
   "items": [
     {
-      "name": "Sutures",
-      "quantity": 100,
+      "name": "",
+      "quantity": ,
       "unit_price": {
         "currency": "USD",
-        "value": "5.00"
+        "value": ""
       }
     }
   ],
-  "invoice_date": "2014-03-24 PDT",
+  "invoice_date": "",
   "payment_term": {
-    "term_type": "NET_45",
-    "due_date": "2014-05-08 PDT"
+    "term_type": "",
+    "due_date": ""
   },
   "tax_calculated_after_discount": false,
   "tax_inclusive": false,
-  "note": "Medical Invoice 16 Jul, 2013 PST",
+  "note": "",
   "total_amount": {
     "currency": "USD",
-    "value": "500.00"
+    "value": ""
   }
 }{
-  "id": "INV2-8UZ6-Q3DK-VZXV-SXQB",
-  "number": "0014",
-  "status": "DRAFT",
+  "id": "",
+  "number": "",
+  "status": "",
   "merchant_info": {
-    "email": "ppaas_default@paypal.com",
-    "first_name": "Dennis",
-    "last_name": "Doctor",
-    "business_name": "Medical Professionals, LLC",
+    "email": "",
+    "first_name": "",
+    "last_name": "",
+    "business_name": "",
     "phone": {
-      "country_code": "1",
-      "national_number": "5032141716"
+      "country_code": "",
+      "national_number": ""
     },
     "address": {
-      "line1": "1234 Main St.",
-      "city": "Portland",
+      "line1": "",
+      "city": "",
       "state": "OR",
-      "postal_code": "97217",
-      "country_code": "US"
+      "postal_code": "",
+      "country_code": ""
     }
   },
   "billing_info": [
     {
-      "email": "example@example.com"
+      "email": ""
     }
   ],
   "shipping_info": {
-    "first_name": "Sally",
-    "last_name": "Patient",
-    "business_name": "Not applicable",
+    "first_name": "",
+    "last_name": "",
+    "business_name": "",
     "phone": {
-      "country_code": "1",
-      "national_number": "5039871234"
+      "country_code": "",
+      "national_number": ""
     },
     "address": {
-      "line1": "1234 Broad St.",
-      "city": "Portland",
+      "line1": "",
+      "city": "",
       "state": "OR",
-      "postal_code": "97216",
-      "country_code": "US"
+      "postal_code": "",
+      "country_code": ""
     }
   },
   "items": [
     {
-      "name": "Sutures",
-      "quantity": 100,
+      "name": "",
+      "quantity": ,
       "unit_price": {
         "currency": "USD",
-        "value": "5.00"
+        "value": ""
       }
     }
   ],
-  "invoice_date": "2014-03-24 PDT",
+  "invoice_date": "",
   "payment_term": {
-    "term_type": "NET_45",
-    "due_date": "2014-05-08 PDT"
+    "term_type": "",
+    "due_date": ""
   },
   "tax_calculated_after_discount": false,
   "tax_inclusive": false,
-  "note": "Medical Invoice 16 Jul, 2013 PST",
+  "note": "",
   "total_amount": {
     "currency": "USD",
-    "value": "500.00"
+    "value": ""
   }
 }

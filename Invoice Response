@@ -1,65 +1,65 @@
 {
-  "id": "INV2-RUVR-ADWQ-H89Y-ABCD",
-  "number": "ABCD4971",
-  "status": "DRAFT",
+  "id": "",
+  "number": "",
+  "status": "",
   "merchant_info": {
-    "email": "ppaas_default@paypal.com",
-    "first_name": "Dennis",
-    "last_name": "Doctor",
-    "business_name": "Medical Professionals, LLC",
-    "phone": {
-      "country_code": "1",
-      "national_number": "5032141234"
+    "email": "phirimarvin@yahoo.com",
+    "first_name": "Mabvuto",
+    "last_name": "Phiri",
+    "business_name": "Global Advertising Services",
+    "phone": {+260971992155
+      "country_code": "10101",
+      "national_number": "439447/67/1"
     },
-    "address": {
-      "line1": "1234 Main St.",
-      "city": "Portland",
-      "state": "OR",
-      "postal_code": "97217",
-      "country_code": "US"
+    "address": {B5-33 New Ndeke Kitwe
+      "line1": "+260971992155.",
+      "city": "Kitwe",
+      "state": "Copperbelt",
+      "postal_code": "Not Applicable",
+      "country_code": "Zambia"
     }
   },
   "billing_info": [
     {
-      "email": "email@example.com"
+      "email": ""
     }
   ],
   "shipping_info": {
-    "first_name": "Sally",
-    "last_name": "Patient",
+    "first_name": "",
+    "last_name": "",
     "business_name": "Not applicable",
     "phone": {
-      "country_code": "1",
-      "national_number": "5039871234"
+      "country_code": "",
+      "national_number": ""
     },
     "address": {
-      "line1": "1234 Broad St.",
-      "city": "Portland",
-      "state": "OR",
-      "postal_code": "97216",
-      "country_code": "US"
+      "line1": "",
+      "city": "",
+      "state": "",
+      "postal_code": "",
+      "country_code": ""
     }
   },
   "items": [
     {
-      "name": "Sutures",
-      "quantity": 100,
+      "name": "",
+      "quantity": ,
       "unit_price": {
-        "currency": "USD",
-        "value": "5.00"
+        "currency": "",
+        "value": ""
       }
     }
   ],
-  "invoice_date": "2014-02-27 PST",
+  "invoice_date": "",
   "payment_term": {
-    "term_type": "NET_45",
-    "due_date": "2014-04-13 PDT"
+    "term_type": "",
+    "due_date": ""
   },
   "tax_calculated_after_discount": false,
   "tax_inclusive": false,
-  "note": "Medical Invoice 16 Jul, 2013 PST",
+  "note": "",
   "total_amount": {
-    "currency": "USD",
-    "value": "500.00"
+    "currency": "",
+    "value": ""
   }
 }
